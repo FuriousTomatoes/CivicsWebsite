@@ -10,7 +10,7 @@ body {
 .section {
   margin: auto;
   width: 91%;
-  background-color: #0c0c0c;
+  background-color: #252525;
   padding: 2%;
   margin: 3%;
   /*!!decidere!!*/
@@ -31,7 +31,7 @@ body {
 
 @media screen and (max-width: 580px) {
   #title {
-    padding-top: 40px;
+    padding-top: 70px;
     transition: 0.4s;
   }
 }

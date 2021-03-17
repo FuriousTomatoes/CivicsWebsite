@@ -7,7 +7,7 @@ function resizeHeader() {
     document.getElementById("header-nav").style.padding = "0";
     //document.getElementById("logo").style.fontSize = "25px";
   } else {
-    document.getElementById("header-nav").style.padding = "10px 0 10px 0";
+    document.getElementById("header-nav").style.padding = "10px 0";
     //document.getElementById("logo").style.fontSize = "35px";
   }
 }
