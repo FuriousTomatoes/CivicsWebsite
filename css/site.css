@@ -29,6 +29,10 @@ body {
   transition: 0.4s;
 }
 
+.main-image {
+  width: 100%;
+}
+
 @media screen and (max-width: 580px) {
   #title {
     padding-top: 70px;

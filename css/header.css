@@ -61,10 +61,14 @@ div#header-menu {
   margin-right: 5px;
   margin-bottom: 16px;
 }
-
+.header-nav-item > a {
+  color: white;
+  text-decoration: none;
+}
 .header-nav-item > a:hover {
   text-decoration: underline;
   cursor: pointer;
+  color: white;
 }
 
 /* Style the logo */
