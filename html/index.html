@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/site.css" />
     <script src="../js/header.js"></script>
-    <script src="../js/site.js"></script>
+    <script src="../js/image-viewer.js"></script>
+    <script src="../js/more.js"></script>
     <title>PLACEHOLDER</title>
   </head>
-  <body onload="startTimer()">
+  <body onload="startTimer();">
     <header id="header">
       <nav id="header-nav" class="unselectable">
         <ul>
+          <li
+            class="header-nav-item"
+            id="header-seemore"
+            onclick="more();"
+          >
+            <a>Vedi di più </a>
+            <img id="img-menu-arrow" src="../images/arrow-down.svg" alt="v" />
+          </li>
           <li class="header-nav-item">
             <img src="../images/empty-icon.svg" /><a>Eolica</a>
           </li>
@@ -32,17 +41,35 @@
           <li class="header-nav-item">
             <img src="../images/empty-icon.svg" /><a>Combustione fossile</a>
           </li>
-          <li class="header-nav-item">
-            <img src="../images/empty-icon.svg" id="header-seemore" /><a
-              >Vedi di più</a
-            >
-          </li>
         </ul>
         <img id="header-logo" />
         <button id="header-language-button"></button>
         <button id="header-theme-button"></button>
       </nav>
     </header>
+
+    <div id="header-menu">
+      <ul>
+        <li class="header-nav-item">
+          <img src="../images/empty-icon.svg" /><a>Eolica</a>
+        </li>
+        <li class="header-nav-item">
+          <img src="../images/empty-icon.svg" /><a>Idroelettrica</a>
+        </li>
+        <li class="header-nav-item">
+          <img src="../images/empty-icon.svg" /><a>Solare</a>
+        </li>
+        <li class="header-nav-item">
+          <img src="../images/empty-icon.svg" /><a>Geotermica</a>
+        </li>
+        <li class="header-nav-item">
+          <img src="../images/empty-icon.svg" /><a>Nucleare</a>
+        </li>
+        <li class="header-nav-item">
+          <img src="../images/empty-icon.svg" /><a>Combustione fossile</a>
+        </li>
+      </ul>
+    </div>
 
     <div id="title">
       <h1>Le energie rinnovabili</h1>
@@ -75,7 +102,7 @@
             L’energia del vento non produce né emissioni dannose per la salute,
             né gas serra, ed è inesauribile.
           </i>
-          <button type="button" onclick="displayPreviousImage()">
+          <button type="button" onclick=" displayPreviousImage(true); ">
             precedente
           </button>
           <img
@@ -83,7 +110,9 @@
             src="../images/Pala-eolica-3.png"
             style="width: 600px; height: 500px"
           />
-          <button type="button" onclick="displayNextImage()">successiva</button>
+          <button type="button" onclick=" displayNextImage(true);">
+            successiva
+          </button>
         </p>
       </div>
       <div class="section">

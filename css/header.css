@@ -1,5 +1,4 @@
 #header-nav {
-  display: table;
   max-height: 64px;
   overflow: hidden;
   background-color: #070707dd;
@@ -11,10 +10,6 @@
   text-transform: uppercase;
   /*!!decidere!!*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#header-seemore{
-
 }
 
 #header-nav > ul {
@@ -32,6 +27,27 @@
 .header-nav-item > a {
   display: inline;
   line-height: 32px;
+}
+
+#header-menu {
+  display: none;
+  position: fixed;
+  top: 64px;
+  background-color: red;
+  transition: 0.4s;
+  width: 100%;
+}
+
+#header-menu > ul {
+  list-style-type: none;
+}
+
+#header-menu > ul > li {
+  float: left;
+}
+
+#img-menu-arrow {
+  width: 16px;
 }
 
 .header-nav-item > img {
@@ -79,5 +95,9 @@
   }
   #header-nav-right {
     float: none;
+  }
+  #header-menu {
+    top: 94px;
+    transition: 0.4s;
   }
 }
