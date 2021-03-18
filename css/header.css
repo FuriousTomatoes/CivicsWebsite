@@ -29,11 +29,11 @@
   line-height: 32px;
 }
 
-#header-menu {
+div#header-menu {
+  top: 84px;
   display: none;
   position: fixed;
-  top: 64px;
-  background-color: red;
+  background-color: #070707dd;
   transition: 0.4s;
   width: 100%;
 }
@@ -43,7 +43,10 @@
 }
 
 #header-menu > ul > li {
+  display: block;
   float: left;
+  text-align: left;
+  width: 100%;
 }
 
 #img-menu-arrow {
@@ -97,7 +100,7 @@
     float: none;
   }
   #header-menu {
-    top: 94px;
+    top: 94px !important;
     transition: 0.4s;
   }
 }
