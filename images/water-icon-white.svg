@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 8.467 8.467"  xmlns:v="https://vecta.io/nano"><path d="M4.233 0C3.178 2.07 1.486 3.946 1.462 6.029c0 1.346 1.241 2.438 2.772 2.438s2.772-1.091 2.772-2.438C6.67 3.861 5.351 1.614 4.233 0z" fill="#fff"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 8.467 8.467">
+<path id="water" d="M4.233 0C3.178 2.07 1.486 3.946 1.462 6.029c0 1.346 1.241 2.438 2.772 2.438s2.772-1.091 2.772-2.438C6.67 3.861 5.351 1.614 4.233 0z" fill="#fff"/>
+<style>
+#water{
+    transform: translateY(-16px);
+    animation: fall 2s ease infinite;
+}
+@keyframes fall{
+    0% {transform: translateY(-16px);}
+    20% {transform: translateY(0px);}
+    60% {transform: translateY(0px);}
+    100% {transform: translateY(16px);}
+}
+</style>
+</svg>
