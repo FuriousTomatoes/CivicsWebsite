@@ -85,10 +85,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="15.839192"
-     inkscape:cx="11.303957"
-     inkscape:cy="7.6347748"
+     inkscape:cx="22.362924"
+     inkscape:cy="18.589774"
      inkscape:document-units="mm"
-     inkscape:current-layer="text885"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
@@ -137,39 +137,26 @@
        cx="4.2333331"
        cy="292.76666"
        r="4.1010418" />
-    <g
-       aria-label="TSP"
+    <text
+       xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.3355701px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       id="text885">
-      <path
-         d="m 1.8934291,295.59668 v -2.1059 H 1.1067688 v -0.28177 H 2.999314 v 0.28177 H 2.2093962 v 2.1059 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ARIAL;-inkscape-font-specification:ARIAL;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
-         id="path838" />
-      <path
-         d="m 5.5531097,295.59668 v -2.38767 h 0.900669 q 0.2377897,0 0.3631993,0.0228 0.1758992,0.0293 0.2947941,0.11238 0.1188948,0.0814 0.1905574,0.22965 0.073291,0.14821 0.073291,0.32574 0,0.30456 -0.1938149,0.51629 -0.1938149,0.21011 -0.7003394,0.21011 H 5.8690768 v 0.9707 z m 0.3159671,-1.25247 h 0.6172759 q 0.3061949,0 0.4348619,-0.11401 0.128667,-0.11401 0.128667,-0.32085 0,-0.14984 -0.076549,-0.25571 -0.07492,-0.10749 -0.198701,-0.14169 -0.079806,-0.0212 -0.294794,-0.0212 H 5.8690768 Z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ARIAL;-inkscape-font-specification:ARIAL;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
-         id="path842" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:4.78640842px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.01696077;"
-         x="3.07429"
-         y="295.57797"
-         id="text865"><tspan
-           sodipodi:role="line"
-           id="tspan863"
-           x="3.07429"
-           y="295.57797"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ARIAL;-inkscape-font-specification:ARIAL;stroke-width:0.01696077;fill:#ffffff;fill-opacity:1;">s</tspan></text>
-    </g>
+       x="1.0285914"
+       y="295.59668"
+       id="text885"><tspan
+         sodipodi:role="line"
+         id="tspan883"
+         x="1.0285914"
+         y="295.59668"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ARIAL;-inkscape-font-specification:ARIAL;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">TSP</tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path891"
-       cx="4.2333331"
+       cx="4.7916136"
        cy="292.21625"
        r="0.41812688" />
     <path
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 16.072266 1.7753906 C 14.844383 1.7753906 13.613781 1.7750721 13.613281 4.0234375 C 13.613164 4.5529759 13.699486 5.2146464 13.820312 5.9003906 A 8.3207909 8.3207909 0 0 1 16 5.5996094 A 8.3207909 8.3207909 0 0 1 18.314453 5.9316406 C 18.438633 5.2331275 18.529615 4.5590552 18.529297 4.0214844 C 18.52797 1.7761426 17.300148 1.7753906 16.072266 1.7753906 z M 16 6.4707031 A 7.4497175 7.4497175 0 0 0 13.982422 6.75 C 14.231388 7.8323101 14.583799 8.9117596 14.990234 9.6777344 A 4.3662246 4.3662246 0 0 1 16 9.5527344 A 4.3662246 4.3662246 0 0 1 17.138672 9.7089844 C 17.546265 8.9511543 17.901068 7.8740242 18.152344 6.7910156 A 7.4497175 7.4497175 0 0 0 16 6.4707031 z "
+       d="M 16.072266 1.7753906 C 14.844383 1.7753906 13.613781 1.7750721 13.613281 4.0234375 C 13.612874 5.8550382 14.426398 9.1712743 15.394531 10.337891 A 3.6321946 3.6321946 0 0 1 16 10.287109 A 3.6321946 3.6321946 0 0 1 16.726562 10.361328 C 17.704061 9.21782 18.530386 5.8644692 18.529297 4.0214844 C 18.52797 1.7761426 17.300148 1.7753906 16.072266 1.7753906 z "
        transform="matrix(0.26458333,0,0,0.26458333,0,288.53332)"
        id="path893" />
   </g>
