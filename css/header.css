@@ -71,25 +71,6 @@ div#header-menu {
   color: white;
 }
 
-/* Style the logo */
-#header-nav #logo {
-  font-size: 35px;
-  font-weight: bold;
-  transition: 0.4s;
-}
-
-/* Style the active/current link */
-#header-nav a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-/* Display some links to the right */
-#header-nav-right {
-  float: right;
-}
-
-/* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
 @media screen and (max-width: 580px) {
   #header-nav {
     padding: 20px 0 !important;
