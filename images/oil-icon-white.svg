@@ -11,12 +11,12 @@
 #tube
 {
     transform-origin: 0.931px 6.6px;
-    animation: stretch 2s infinite 0.8s linear;
+    animation: stretch 2s infinite 0.8s ease;
 }
 #pump
 {
     transform-origin: 5.5px 3px;
-    animation: rotate 2s infinite 0.8s linear;
+    animation: rotate 2s infinite 0.8s ease;
 }
 @keyframes rotate {
   0%   { transform: rotate(0deg); }
