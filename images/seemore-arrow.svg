@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 4.233 4.233"><path d="M.282 1.906L2.113 3.95l1.831-2.045z" fill="#fff" stroke="#fff" stroke-width=".565" stroke-linejoin="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 4.233 4.233"><path d="M.282 1.906L2.113 3.95l1.831-2.045z" fill="#fff" stroke="#fff" stroke-width=".565" stroke-linejoin="round"/>
+<style>
+ svg {transform: rotate(0);}
+</style>
+ </svg>

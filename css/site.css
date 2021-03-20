@@ -78,11 +78,24 @@ img {
 
 #img-menu-arrow {
   transform-origin: center center;
-  animation: rotate 0s linear 2s unset forwards;
+  animation: rotate 0.5s ease 0.5s 1 forwards;
+  animation-delay: 0s;
+  animation-duration: 0.5s;
 }
 
 @keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
   100% {
     transform: rotate(-90deg);
+  }
+}
+@keyframes reverseRotate {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }

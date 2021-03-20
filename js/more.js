@@ -1,17 +1,13 @@
 var isActive = false;
 function rotateArrow() {
-  if (isActive) {
-    document.getElementById("img-menu-arrow").style.animationPlayState =
-      "running";
-    document.getElementById("img-menu-arrow").style.animationDirection =
-      "backwards";
-  } else {
-    document.getElementById("img-menu-arrow").style.animationPlayState =
-      "running";
-    document.getElementById("img-menu-arrow").style.animationDirection =
-      "backwards";
-  }
+  if (isActive)
+    document.getElementById("img-menu-arrow").style.animationName = "rotate";
+  else
+    document.getElementById("img-menu-arrow").style.animationName =
+      "reverseRotate";
+
   isActive = !isActive;
+  document.getElementById("img-menu-arrow").style.animationIterationCount = 1;
 }
 
 function more() {
