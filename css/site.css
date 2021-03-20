@@ -63,3 +63,17 @@ img.main-image {
 img {
   max-width: 100%;
 }
+
+img#img-menu-arrow {
+  transform-origin: center center;
+}
+@keyframes spin1 {
+  100% {
+    transform: rotate(-90deg);
+  }
+}
+@keyframes spin2 {
+  100% {
+    transform: rotate(90deg);
+  }
+}
