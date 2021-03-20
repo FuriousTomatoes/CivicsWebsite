@@ -21,3 +21,7 @@ div#header-menu {
 .header-nav-item > a:hover {
   color: white;
 }
+footer{
+  color: darkgray;
+  text-align: center;
+}
