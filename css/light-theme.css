@@ -50,3 +50,11 @@ div#header-menu {
   cursor: pointer;
   color: white;
 }
+footer{
+  color: black;
+  text-align: center;
+  font-size: 15.5px;
+  font-style: italic;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
