@@ -12,6 +12,7 @@ body {
   margin: 3%;
   /*!!decidere!!*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
 }
 .section > h2 {
   font-family: Tahoma, Verdana, sans-serif;
@@ -59,7 +60,18 @@ img.main-image {
   -ms-user-select: none;
   user-select: none;
 }
+#img-container-right{
+  float:right;
+  width: 35%;
+  overflow: hidden;
+  height: 40vh;
 
+}
+.button-img{
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
 img {
   max-width: 100%;
 }
