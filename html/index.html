@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/header.css" />
-
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
     <link
       rel="stylesheet"
       id="csscolors"
@@ -68,12 +72,17 @@
               ><img src="../images/oil-icon.svg" alt="Trivella" /></a
             ><a href="combustione-fossile.html">Combustione fossile</a>
           </li>
+          <li>
+            <button
+              id="header-theme-button"
+              type="button"
+              onclick="themeChange()"
+            >
+              colore
+            </button>
+          </li>
         </ul>
-        <img id="header-logo" />
-        <button id="header-language-button"></button>
-        <button id="header-theme-button"></button>
       </nav>
-
       <div id="header-menu">
         <ul>
           <li class="header-nav-item">
@@ -125,7 +134,6 @@
         />
         <h2>L'energia eolica</h2>
         <p>
-          <button type="button" onclick="themeChange()">cambia colore</button>
           <i>
             L’energia eolica è utilizzata da migliaia di anni per spostare le
             barche (velieri), ma venne sfruttata sin dall’antichità (I° sec.
