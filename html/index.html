@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/header.css" />
-
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
     <link
       rel="stylesheet"
       id="csscolors"
@@ -28,7 +32,11 @@
               ><img src="../images/home-icon.svg" alt="home" /></a
             ><a href="index.html">Home</a>
           </li>
-          <li class="header-nav-item" id="header-seemore" onclick="more();">
+          <li
+            class="header-nav-item"
+            id="header-seemore"
+            onclick="more();rotateArrow();"
+          >
             <a>Vedi di più </a>
             <img
               id="img-menu-arrow"
@@ -68,12 +76,17 @@
               ><img src="../images/oil-icon.svg" alt="Trivella" /></a
             ><a href="combustione-fossile.html">Combustione fossile</a>
           </li>
+          <li>
+            <button
+              id="header-theme-button"
+              type="button"
+              onclick="themeChange()"
+            >
+              colore
+            </button>
+          </li>
         </ul>
-        <img id="header-logo" />
-        <button id="header-language-button"></button>
-        <button id="header-theme-button"></button>
       </nav>
-
       <div id="header-menu">
         <ul>
           <li class="header-nav-item">
@@ -123,8 +136,8 @@
           src="../images/pale-eoliche.jpg"
           alt="pale eoliche"
         />
-          <button type="button" onclick="themeChange()">cambia colore</button>
-          <br>
+
+
           <button type="button" onclick=" displayPreviousImage(true); ">
             precedente
           </button>

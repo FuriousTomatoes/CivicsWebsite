@@ -63,23 +63,14 @@ img.main-image {
 img {
   max-width: 100%;
 }
-#eolico{
-  float: right;
-  height: 400px;
-  width: 400px;
-  display: block;
-  clear: right;
-}
-img#img-menu-arrow {
+
+#img-menu-arrow {
   transform-origin: center center;
+  animation: rotate 0s linear 2s unset forwards;
 }
-@keyframes spin1 {
+
+@keyframes rotate {
   100% {
     transform: rotate(-90deg);
-  }
-}
-@keyframes spin2 {
-  100% {
-    transform: rotate(90deg);
   }
 }
