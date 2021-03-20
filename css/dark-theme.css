@@ -24,4 +24,6 @@ div#header-menu {
 footer{
   color: darkgray;
   text-align: center;
+  font-size: 15.5px;
+  font-style: italic;
 }
