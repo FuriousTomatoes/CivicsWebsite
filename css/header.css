@@ -59,6 +59,7 @@ div#header-menu {
   margin-right: 5px;
   margin-bottom: 16px;
 }
+
 @media screen and (max-width: 580px) {
   #header-nav {
     padding: 19px 0 !important;
