@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 580px) {
   #header-nav {
-    padding: 20px 0 !important;
+    padding: 19px 0 !important;
 
     max-height: 54px;
   }
@@ -53,7 +53,7 @@
     float: none;
   }
   #header-menu {
-    top: 94px !important;
+    top: 102px !important;
     transition: 0.4s;
   }
 }
