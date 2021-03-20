@@ -5,7 +5,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-size:20px;
+  font-size: 20px;
 }
 
 .section {
@@ -17,14 +17,14 @@ body {
   /*!!decidere!!*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.section > h2 
-{
+.section > h2 {
   font-family: Tahoma, Verdana, sans-serif;
 }
-.section > p, ol, ul, li
-{
+.section > p,
+ol,
+ul,
+li {
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 #title {
   font-size: 30px;
@@ -43,7 +43,7 @@ body {
   transition: 0.4s;
 }
 
-.main-image {
+img.main-image {
   width: 100%;
   height: 35.156%;
 }
@@ -62,4 +62,8 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+img {
+  max-width: 100%;
 }
