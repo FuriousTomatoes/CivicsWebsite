@@ -50,9 +50,3 @@ div#header-menu {
   cursor: pointer;
   color: white;
 }
-
-/* Style the active/current link */
-#header-nav a.active {
-  background-color: dodgerblue;
-  color: white;
-}
