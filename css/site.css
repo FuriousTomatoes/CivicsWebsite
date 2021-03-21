@@ -42,26 +42,6 @@ li {
   overflow: auto;
   margin-bottom: 25px;
 }
-.contenuto {
- float:left;
-  width: 63%;
-  top: 5px;
-}
-.contenuto2 {
-  position: absolute;
-  width: 63%;
-  margin-left: 37%;
-}
-.contenuto-img {
-  float: right;
-  width: 35%;
-  height: 300px;
-}
-.contenuto2-img {
-  float: left;
-  width: 35%;
-  height: 300px;
-}
 img.main-image {
   width: 100%;
   height: 35.156%;
@@ -94,6 +74,33 @@ img.main-image {
 img {
   max-width: 100%;
 }
+
+.chapter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.chapter > h2 {
+}
+.chapter-paragraph:nth-child(even) {
+  order: 1;
+  flex-grow: 1;
+}
+.chapter-paragraph:nth-child(odd) {
+  order: 2;
+  flex-grow: 1;
+}
+
+.chapter-img:nth-child(even) {
+  width: 35%;
+  order: 2;
+  flex-grow: 3;
+}
+.chapter-img:nth-child(even) {
+  width: 35%;
+  order: 1;
+  flex-grow: 3;
+}
+
 #img-menu-arrow {
   transform-origin: center center;
   animation: rotate 0.5s ease 0.5s 1 forwards;
