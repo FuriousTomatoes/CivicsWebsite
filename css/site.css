@@ -78,27 +78,29 @@ img {
 .chapter {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 .chapter > h2 {
-}
-.chapter-paragraph:nth-child(even) {
-  order: 1;
-  flex-grow: 1;
-}
-.chapter-paragraph:nth-child(odd) {
-  order: 2;
-  flex-grow: 1;
+  width: 100%;
 }
 
-.chapter-img:nth-child(even) {
+.chapter:nth-child(even) > .chapter-paragraph {
+  order: 1;
+  width: 63%;
+  margin-right: 2%;
+}
+.chapter:nth-child(odd) > .chapter-paragraph {
+  margin-left: 2%;
+  order: 2;
+  width: 63%;
+}
+.chapter:nth-child(even) > .chapter-img {
   width: 35%;
   order: 2;
-  flex-grow: 3;
 }
-.chapter-img:nth-child(even) {
+.chapter:nth-child(odd) > .chapter-img {
   width: 35%;
   order: 1;
-  flex-grow: 3;
 }
 
 #img-menu-arrow {
