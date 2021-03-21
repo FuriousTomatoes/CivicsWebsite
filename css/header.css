@@ -26,7 +26,7 @@ div#header-menu {
   float: left;
 }
 .header-menu-link > li > a:link, :visited{
-  color: rgb(175,175,175);
+  color: #afafaf;
   text-decoration: none;
 }
 .header-menu-link > li > a:hover{
