@@ -21,7 +21,7 @@ div#header-menu {
   width: 100%;
 }
 .header-menu > li{
-  list-style-type: disc;
+  list-style-type: none;
   margin-left: 35px;
   float: left;
 }
@@ -73,7 +73,7 @@ div#header-menu {
 
 @media screen and (max-width: 580px) {
   #header-nav {
-    padding: 19px 0 !important;
+    padding: 25px 0 !important;
 
     max-height: 54px;
   }
@@ -87,5 +87,21 @@ div#header-menu {
   #header-menu {
     top: 102px !important;
     transition: 0.4s;
+  }
+  .header-menu > li{
+   list-style-type: disc;
+   float: left;
+   margin: 0px 8px;
+   width: 43%;
+  }
+  .header-menu-link > li > a:link, :visited{
+  color: #afafaf;
+  text-decoration: none;
+  }
+}
+@media screen and (max-width:485px)
+{
+  .header-menu > li{
+    display:none;
   }
 }
