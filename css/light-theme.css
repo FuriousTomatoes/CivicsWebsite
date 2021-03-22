@@ -1,60 +1,40 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
   color: #171717;
   background-color: white;
-  margin: 0;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  font-size: 20px;
 }
 
 .section {
-  margin: auto;
-  width: 91%;
   background-color: whitesmoke;
-  padding: 2%;
-  margin: 3%;
-  /*!!decidere!!*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #header-nav {
-  max-height: 64px;
-  overflow: hidden;
-  background-color: #070707dd;
-  padding: 10px 0;
-  transition: 0.4s;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  text-transform: uppercase;
-  /*!!decidere!!*/
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #d3d3d3dd;
 }
 
 div#header-menu {
-  top: 84px;
-  display: none;
-  position: fixed;
-  background-color: #070707dd;
-  transition: 0.4s;
-  width: 100%;
+  background-color: #d3d3d3dd;
 }
 
 .header-nav-item > a {
-  color: white;
-  text-decoration: none;
+  color: #171717;
 }
 .header-nav-item > a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-  color: white;
+  color: #171717;
 }
-footer{
-  color: black;
-  text-align: center;
-  font-size: 15.5px;
-  font-style: italic;
-  margin-bottom: 15px;
-  font-weight: 500;
+footer {
+  color: #171717;
+}
+
+.icon {
+  filter: invert(1);
+}
+
+footer {
+  color: #131313;
+}
+
+.header-menu-link > li > a:link,
+:visited {
+  color: #1a1a1a;
 }

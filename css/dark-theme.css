@@ -21,10 +21,11 @@ div#header-menu {
 .header-nav-item > a:hover {
   color: white;
 }
-footer{
+footer {
   color: darkgray;
-  text-align: center;
-  font-size: 15.5px;
-  font-style: italic;
-  margin-bottom: 15px;
+}
+
+.header-menu-link > li > a:link,
+:visited {
+  color: #afafaf;
 }

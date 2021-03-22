@@ -27,7 +27,6 @@ div#header-menu {
 }
 .header-menu-link > li > a:link,
 :visited {
-  color: #afafaf;
   text-decoration: none;
 }
 .header-menu-link > li > a:hover {
@@ -103,7 +102,7 @@ div#header-menu {
   transition: transform 0.2s;
 }
 .toggle__input:checked ~ .toggle__fill {
-  background: black;
+  background: rgb(20, 20, 20);
 }
 
 .toggle__input:checked ~ .toggle__fill::after {
