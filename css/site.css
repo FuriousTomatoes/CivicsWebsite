@@ -84,6 +84,10 @@ img {
   width: 100%;
 }
 
+.section > ol > li {
+  margin-bottom: 20px;
+}
+
 .chapter:nth-child(even) > .chapter-paragraph {
   order: 1;
   width: 63%;
@@ -109,7 +113,7 @@ img {
   animation-delay: 0s;
   animation-duration: 0.5s;
 }
-footer{
+footer {
   text-align: center;
   font-size: 15.5px;
   font-style: italic;

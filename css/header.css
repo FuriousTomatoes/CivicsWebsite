@@ -60,6 +60,11 @@ div#header-menu {
   width: 100%;
 }
 #img-menu-arrow {
+  transform-origin: center center;
+  animation: rotate 0.5s ease 0.5s 1 forwards;
+  animation-delay: 0s;
+  animation-duration: 0.5s;
+  cursor: pointer;
   width: 16px;
 }
 .header-nav-item img {
@@ -78,10 +83,10 @@ div#header-menu {
   display: inline-block;
   cursor: pointer;
 }
-.toggle__input {
+.toggle-input {
   display: none;
 }
-.toggle__fill {
+.toggle-fill {
   position: relative;
   width: 40px;
   height: 20px;
@@ -89,7 +94,7 @@ div#header-menu {
   background: #dddddd;
   transition: background 0.2s;
 }
-.toggle__fill::after {
+.toggle-fill::after {
   content: "";
   position: absolute;
   top: 0;
@@ -101,11 +106,11 @@ div#header-menu {
   border-radius: 20px;
   transition: transform 0.2s;
 }
-.toggle__input:checked ~ .toggle__fill {
+.toggle-input:checked ~ .toggle-fill {
   background: #141414;
 }
 
-.toggle__input:checked ~ .toggle__fill::after {
+.toggle-input:checked ~ .toggle-fill::after {
   transform: translateX(20px);
 }
 .header-menu.header-menu-link {
@@ -116,9 +121,6 @@ div#header-menu {
   width: 92%;
   padding: 0;
 }
-.header-menu > li {
-}
-
 @media screen and (max-width: 580px) {
   #header-nav {
     padding: 25px 0 !important;
@@ -146,8 +148,5 @@ div#header-menu {
   :visited {
     color: #afafaf;
     text-decoration: none;
-  }
-  .header-menu > li {
-    display: none;
   }
 }
