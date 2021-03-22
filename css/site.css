@@ -83,7 +83,6 @@ img {
 .chapter > h2 {
   width: 100%;
 }
-
 .chapter:nth-child(even) > .chapter-paragraph {
   order: 1;
   width: 63%;
@@ -101,13 +100,6 @@ img {
 .chapter:nth-child(odd) > .chapter-img {
   width: 35%;
   order: 1;
-}
-
-#img-menu-arrow {
-  transform-origin: center center;
-  animation: rotate 0.5s ease 0.5s 1 forwards;
-  animation-delay: 0s;
-  animation-duration: 0.5s;
 }
 footer{
   text-align: center;
