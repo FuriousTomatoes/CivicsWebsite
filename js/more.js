@@ -15,3 +15,7 @@ function more() {
     document.getElementById("header-menu").style.display = "block";
   else document.getElementById("header-menu").style.display = "none";
 }
+window.onscroll = function () {
+  if (isActive) more();
+  isActive = false;
+};
