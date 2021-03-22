@@ -26,82 +26,87 @@
   <body onload="startTimer();">
     <header id="header">
       <nav id="header-nav" class="unselectable">
-        <ul>
-          <li class="header-nav-item">
-            <a href="index.html"
-              ><img src="../images/home-icon.svg" alt="home" class="icon" /></a
-            ><a href="index.html">Home</a>
-          </li>
-          <li
-            class="header-nav-item"
-            id="header-seemore"
-            onclick="more();rotateArrow();"
-          >
-            <a>Vedi di più </a>
-            <img
-              id="img-menu-arrow"
-              src="../images/seemore-arrow.svg"
-              alt="v"
-              class="icon"
-            />
-          </li>
-          <li class="header-nav-item">
-            <a href="energia-eolica.html"
-              ><img
-                src="../images/wind-icon.svg"
-                alt="Pala eolica"
-                class="icon" /></a
-            ><a href="energia-eolica.html">Eolica</a>
-          </li>
-          <li class="header-nav-item">
-            <a href="energia-idroelettrica.html"
-              ><img
-                src="../images/water-icon.svg"
-                alt="Goccia acqua"
-                class="icon" /></a
-            ><a href="energia-idroelettrica.html">Idroelettrica</a>
-          </li>
-          <li class="header-nav-item">
-            <a href="energia-solare.html"
-              ><img src="../images/sun-icon.svg" alt="Sole" class="icon" /></a
-            ><a href="energia-solare.html">Solare</a>
-          </li>
-          <li class="header-nav-item">
-            <a href="energia-geotermica.html"
-              ><img
-                src="../images/volcano-icon.svg"
-                alt="Vulcano"
-                class="icon" /></a
-            ><a href="energia-geotermica.html">Geotermica</a>
-          </li>
-          <li class="header-nav-item">
-            <a href="energia-nucleare.html"
-              ><img
-                src="../images/nuclear-icon.svg"
+        <div id="header-nav-left">
+          <ul>
+            <li class="header-nav-item">
+              <a href="index.html"
+                ><img
+                  src="../images/home-icon.svg"
+                  alt="home"
+                  class="icon" /></a
+              ><a href="index.html">Home</a>
+            </li>
+            <li
+              class="header-nav-item"
+              id="header-seemore"
+              onclick="more();rotateArrow();"
+            >
+              <a>Vedi di più </a>
+              <img
+                id="img-menu-arrow"
+                src="../images/seemore-arrow.svg"
+                alt="v"
                 class="icon"
-                alt="Simbolo del nucleare" /></a
-            ><a href="energia-nucleare.html">Nucleare</a>
-          </li>
-          <li class="header-nav-item">
-            <a href="combustione-fossile.html"
-              ><img
-                src="../images/oil-icon.svg"
-                alt="Trivella"
-                class="icon" /></a
-            ><a href="combustione-fossile.html">Combustione fossile</a>
-          </li>
-          <li class="header-nav-item">
-            <label class="toggle" for="myToggle">
-              <input
-                class="toggle__input"
-                type="checkbox"
-                id="myToggle"
-                onchange="themeChange()"
               />
-              <div class="toggle__fill"></div>
-            </label>
-          </li>
-        </ul>
+            </li>
+            <li class="header-nav-item">
+              <a href="energia-eolica.html"
+                ><img
+                  src="../images/wind-icon.svg"
+                  alt="Pala eolica"
+                  class="icon" /></a
+              ><a href="energia-eolica.html">Eolica</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="energia-idroelettrica.html"
+                ><img
+                  src="../images/water-icon.svg"
+                  alt="Goccia acqua"
+                  class="icon" /></a
+              ><a href="energia-idroelettrica.html">Idroelettrica</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="energia-solare.html"
+                ><img src="../images/sun-icon.svg" alt="Sole" class="icon" /></a
+              ><a href="energia-solare.html">Solare</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="energia-geotermica.html"
+                ><img
+                  src="../images/volcano-icon.svg"
+                  alt="Vulcano"
+                  class="icon" /></a
+              ><a href="energia-geotermica.html">Geotermica</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="energia-nucleare.html"
+                ><img
+                  src="../images/nuclear-icon.svg"
+                  class="icon"
+                  alt="Simbolo del nucleare" /></a
+              ><a href="energia-nucleare.html">Nucleare</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="combustione-fossile.html"
+                ><img
+                  src="../images/oil-icon.svg"
+                  alt="Trivella"
+                  class="icon" /></a
+              ><a href="combustione-fossile.html">Combustione fossile</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-nav-item">
+          <label class="toggle" for="myToggle">
+            <input
+              class="toggle__input"
+              type="checkbox"
+              id="myToggle"
+              onchange="themeChange();"
+            />
+            <div class="toggle__fill"></div>
+          </label>
+        </div>
       </nav>
       <div id="header-menu">
         <ul>
