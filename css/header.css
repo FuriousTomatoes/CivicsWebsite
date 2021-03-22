@@ -1,7 +1,7 @@
-#header-nav > ul {
+#header-nav-left > ul {
   list-style-type: none;
 }
-#header-nav {
+#header-nav-left {
   max-height: 64px;
   overflow: hidden;
   padding: 10px 0;
@@ -107,13 +107,20 @@ div#header-menu {
   transition: transform 0.2s;
 }
 .toggle-input:checked ~ .toggle-fill {
-  background: rgb(20, 20, 20);
+  background: #141414;
 }
 
 .toggle-input:checked ~ .toggle-fill::after {
   transform: translateX(20px);
 }
-
+.header-menu.header-menu-link {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-left: 0;
+  width: 92%;
+  padding: 0;
+}
 @media screen and (max-width: 580px) {
   #header-nav {
     padding: 25px 0 !important;
@@ -141,10 +148,5 @@ div#header-menu {
   :visited {
     color: #afafaf;
     text-decoration: none;
-  }
-}
-@media screen and (max-width: 485px) {
-  .header-menu > li {
-    display: none;
   }
 }
