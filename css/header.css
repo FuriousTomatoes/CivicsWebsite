@@ -78,10 +78,10 @@ div#header-menu {
   display: inline-block;
   cursor: pointer;
 }
-.toggle__input {
+.toggle-input {
   display: none;
 }
-.toggle__fill {
+.toggle-fill {
   position: relative;
   width: 40px;
   height: 20px;
@@ -89,7 +89,7 @@ div#header-menu {
   background: #dddddd;
   transition: background 0.2s;
 }
-.toggle__fill::after {
+.toggle-fill::after {
   content: "";
   position: absolute;
   top: 0;
@@ -101,11 +101,11 @@ div#header-menu {
   border-radius: 20px;
   transition: transform 0.2s;
 }
-.toggle__input:checked ~ .toggle__fill {
+.toggle-input:checked ~ .toggle-fill {
   background: rgb(20, 20, 20);
 }
 
-.toggle__input:checked ~ .toggle__fill::after {
+.toggle-input:checked ~ .toggle-fill::after {
   transform: translateX(20px);
 }
 
@@ -126,20 +126,20 @@ div#header-menu {
     top: 102px !important;
     transition: 0.4s;
   }
-  .header-menu > li{
-   list-style-type: disc;
-   float: left;
-   margin: 0px 8px;
-   width: 43%;
+  .header-menu > li {
+    list-style-type: disc;
+    float: left;
+    margin: 0px 8px;
+    width: 43%;
   }
-  .header-menu-link > li > a:link, :visited{
-  color: #afafaf;
-  text-decoration: none;
+  .header-menu-link > li > a:link,
+  :visited {
+    color: #afafaf;
+    text-decoration: none;
   }
 }
-@media screen and (max-width:485px)
-{
-  .header-menu > li{
-    display:none;
+@media screen and (max-width: 485px) {
+  .header-menu > li {
+    display: none;
   }
 }
