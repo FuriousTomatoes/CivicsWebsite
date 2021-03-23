@@ -70,6 +70,7 @@ li {
   top: 0;
   bottom: 0;
   cursor: pointer;
+  width: 64px;
 }
 .button-img:first-of-type {
   left: 0;
@@ -98,6 +99,16 @@ img {
 
 .section > ol > li {
   margin-bottom: 20px;
+}
+
+.toggle-fill > img {
+  width: 14px;
+}
+.toggle-fill > img:first-of-type {
+  margin-left: 3px;
+}
+.toggle-fill > img:last-of-type {
+  margin-right: 3px;
 }
 
 .chapter:nth-child(even) > .chapter-paragraph {
