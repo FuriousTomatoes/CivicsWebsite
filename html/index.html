@@ -276,42 +276,25 @@
 
     <div id="content">
       <div class="section">
-        <img
-          class="main-image"
-          src="../images/pale-eoliche.jpg"
-          alt="pale eoliche"
-        />
-        <div id="img-container-right">
-          <button
-            class="button-img"
+        <div id="changing-image-container">
+          <img
+            class="button-img icon"
+            src="../images/next-image-icon.svg"
             onclick=" displayPreviousImage(true); "
-            style="left: 0"
-          >
-            precedente
-          </button>
-          <img id="img" src="../images/Pala-eolica-3.png" />
-          <button
-            class="button-img"
-            onclick=" displayNextImage(true);"
-            style="right: 0"
-          >
-            successiva
-          </button>
+            style="transform: scaleX(-1)"
+          />
+          <img
+            id="main-image"
+            src="../images/pale-eoliche.jpg"
+            alt="pale eoliche"
+          />
+          <img
+            class="button-img icon"
+            src="../images/next-image-icon.svg"
+            onclick="
+          displayNextImage(true);"
+          />
         </div>
-        <h2>L'energia eolica</h2>
-        <p>
-          L'energia eolica è l'energia del vento, cioè l'energia cinetica di una
-          massa d'aria in movimento. Fonte di energia alternativa a quella
-          prodotta dalla combustione dei combustibili fossili, rinnovabile e a
-          sostegno dell'economia verde, pulita, che non produce emissioni di gas
-          serra durante il funzionamento e richiede una superficie di terra non
-          eccessivamente vasta.
-        </p>
-        <h2>Energia</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
-          voluptate.
-        </p>
       </div>
     </div>
     <footer>
