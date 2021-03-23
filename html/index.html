@@ -28,27 +28,22 @@
       <nav id="header-nav" class="unselectable">
         <div id="header-nav-left">
           <ul>
-            <li class="header-nav-item">
-              <a href="index.html"
-                ><img
-                  src="../images/home-icon.svg"
-                  alt="home"
-                  class="icon" /></a
-              ><a href="index.html">Home</a>
-            </li>
-            <li
-              class="header-nav-item"
-              id="header-seemore"
-              onclick="more();rotateArrow();"
-            >
-              <a>Vedi di più </a>
+            <li class="header-nav-item" id="header-seemore" onclick="more();">
               <img
-                id="img-menu-arrow"
-                src="../images/seemore-arrow.svg"
-                alt="v"
+                src="../images/see-more-icon.svg"
                 class="icon"
               />
             </li>
+            <li class="header-nav-item">
+              <a href="index.html"
+                ><img
+                  id="see-more-icon"
+                  src="../images/home-icon.svg"
+                  alt="home"
+                  class="icon" /></a
+              ><!--<a href="index.html">Home</a> DA CONTROLLARE-->
+            </li>
+
             <li class="header-nav-item">
               <a href="energia-eolica.html"
                 ><img
@@ -280,7 +275,7 @@
       <div class="section">
         <div id="changing-image-container">
           <img
-            class="button-img icon"
+            class="button-img"
             src="../images/next-image-icon.svg"
             onclick=" displayPreviousImage(true); "
             style="transform: scaleX(-1)"
@@ -293,7 +288,7 @@
             />
           </a>
           <img
-            class="button-img icon"
+            class="button-img"
             src="../images/next-image-icon.svg"
             onclick="
           displayNextImage(true);"
