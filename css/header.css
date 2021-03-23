@@ -121,6 +121,9 @@ div#header-menu {
   border-radius: 20px;
   background: #dddddd;
   transition: background 0.2s;
+  display: flex;
+  justify-content: space-between; /*opzionale*/
+  align-items: center;
 }
 .toggle-fill::after {
   content: "";
