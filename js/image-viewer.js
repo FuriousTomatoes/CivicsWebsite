@@ -39,6 +39,7 @@ images[2] = "../images/pale-eoliche.jpg";
 images[3] = "../images/pale-eoliche.jpg";
 images[3] = "../images/pale-eoliche.jpg";
 images[4] = "../images/trivelle-petrolifere.jpg";
+images[5] = "../images/pale-eoliche.jpg";
 
 var path = [],
   x = 0;
