@@ -156,6 +156,7 @@ div#header-menu {
 #header-seemore {
   position: absolute;
   left: 0;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 580px) {
