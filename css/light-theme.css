@@ -8,11 +8,14 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#title {
+  background-color: white;
+}
+
 #header-nav,
 div#header-menu {
   background-color: #ebebebee;
 }
-
 
 .header-nav-item > a {
   color: #171717;
@@ -30,9 +33,20 @@ footer {
 
 footer {
   color: #131313;
+  background-color: white;
+}
+
+#header-menu .header-nav-item > a {
+  color: black;
+  font-weight: bold;
 }
 
 .header-menu-link > li > a:link,
 :visited {
   color: #1a1a1a;
+}
+
+figure {
+  background-color: #f8f9fa;
+  border-color: #c8ccd1;
 }

@@ -4,6 +4,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   font-size: 20px;
+  background-image: url("../images/background-image.svg");
 }
 .section {
   width: 90%;
@@ -16,10 +17,7 @@ body {
 .section > h2 {
   font-family: Tahoma, Verdana, sans-serif;
 }
-.section > p,
-ol,
-ul,
-li {
+* {
   font-family: Arial, Helvetica, sans-serif;
 }
 #title {
@@ -27,9 +25,10 @@ li {
   text-align: center;
   padding-top: 60px;
   transition: 0.4s;
+  width: 700px;
+  margin: auto;
 }
 #title > h1 {
-  margin-block-end: 0;
   margin-bottom: 0;
 }
 #content {
@@ -57,6 +56,7 @@ li {
   user-select: none;
 }
 
+/*changing image*/
 #main-image {
   width: 100%;
   display: block;
@@ -87,20 +87,12 @@ li {
 img {
   max-width: 100%;
 }
-.chapter {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  margin-bottom: 50px;
-}
-.chapter > h2 {
-  width: 100%;
-}
 
 .section > ol > li {
   margin-bottom: 20px;
 }
 
+/*Toggle*/
 .toggle-fill > img {
   width: 14px;
 }
@@ -111,6 +103,19 @@ img {
   margin-right: 3px;
 }
 
+/*Chapter*/
+.chapter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+.chapter > h2 {
+  width: 100%;
+}
+.chapter > .chapter-img {
+  width: calc(35% - 8px);
+}
 .chapter:nth-child(even) > .chapter-paragraph {
   order: 1;
   width: 63%;
@@ -122,44 +127,32 @@ img {
   width: 63%;
 }
 .chapter:nth-child(even) > .chapter-img {
-  width: 35%;
   order: 2;
 }
 .chapter:nth-child(odd) > .chapter-img {
-  width: 35%;
   order: 1;
-}
-
-#img-menu-arrow {
-  transform-origin: center center;
-  animation: rotate 0.5s ease 0.5s 1 forwards;
-  animation-delay: 0s;
-  animation-duration: 0.5s;
 }
 footer {
   text-align: center;
   font-size: 15.5px;
   font-style: italic;
+  width: 600px;
+  margin: auto;
   margin-bottom: 15px;
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(-90deg);
-  }
-}
-@keyframes reverseRotate {
-  0% {
-    transform: rotate(-90deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
+/*figure*/
 figure {
   margin: 0;
+  padding: 3px;
+  padding-bottom: 5px;
+  border: 1px solid;
+}
+figure > figcaption {
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+}
+figure > img {
+  width: 100%;
 }
