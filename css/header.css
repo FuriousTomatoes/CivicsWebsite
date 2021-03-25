@@ -4,6 +4,7 @@
 #header-nav {
   display: flex;
   overflow: hidden;
+  z-index: 99;
 }
 #theme-changer {
   margin-right: 10px;

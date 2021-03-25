@@ -7,10 +7,6 @@ body {
   background-color: #252525;
 }
 
-#title {
-  background-color: #171717;
-}
-
 #header-nav {
   background-color: #070707dd;
 }
@@ -27,7 +23,6 @@ div#header-menu {
 }
 footer {
   color: darkgray;
-  background-color: #171717;
 }
 
 .header-menu-link > li > a:link,
