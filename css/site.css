@@ -19,6 +19,9 @@ body {
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+  font-size: 1px;
+}
 #title {
   font-size: 30px;
   text-align: center;
@@ -46,6 +49,15 @@ body {
     transition: 0.4s;
   }
 }
+@media screen and (max-width: 880px) {
+  .chapter > .chapter-img {
+    width: 100% !important;
+  }
+  .chapter > .chapter-paragraph {
+    width: 100% !important;
+  }
+}
+
 .unselectable {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -153,4 +165,8 @@ figure > figcaption {
 }
 figure > img {
   width: 100%;
+}
+
+#img-p {
+  min-height: 200px;
 }
