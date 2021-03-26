@@ -126,7 +126,7 @@ img {
   width: 100%;
 }
 .chapter > .chapter-img {
-  width: calc(35% - 8px);
+  width: calc(35% - 16px);
 }
 .chapter:nth-child(even) > .chapter-paragraph {
   order: 1;
