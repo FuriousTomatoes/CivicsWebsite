@@ -43,6 +43,7 @@ body {
   #title {
     padding-top: 70px;
     transition: 0.4s;
+    font-size: 7vw;
   }
   body {
     font-size: 2vh;
