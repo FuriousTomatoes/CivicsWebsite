@@ -36,11 +36,10 @@ function startTimer() {
 var images = [],
   x = 0;
 images[0] = "../images/pale-eoliche.jpg";
-images[1] = "../images/pale-eoliche.jpg";
-images[2] = "../images/pale-eoliche.jpg";
-images[3] = "../images/pale-eoliche.jpg";
-images[3] = "../images/pale-eoliche.jpg";
-images[4] = "../images/pale-eoliche.jpg";
+images[1] = "../images/idro-home.jpg";
+images[2] = "../images/solare-home.jpg";
+images[3] = "../images/geo-home.jpg";
+images[4] = "../images/nucleare-home.jpg";
 images[5] = "../images/trivelle-petrolifere.jpg";
 
 var path = [],

@@ -68,7 +68,8 @@ body {
 
 /*changing image*/
 #main-image {
-  width: 100%;
+  height: 35vh;
+  max-width: none;
   display: block;
   position: relative;
   z-index: 0;
