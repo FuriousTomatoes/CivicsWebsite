@@ -160,6 +160,9 @@ div#header-menu {
 #header-seemore {
   position: absolute;
   left: 0;
+}
+
+.icon {
   cursor: pointer;
 }
 #header-nav-right {
