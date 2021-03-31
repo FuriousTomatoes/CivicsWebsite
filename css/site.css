@@ -56,6 +56,15 @@ body {
   .chapter > .chapter-paragraph {
     width: 100% !important;
   }
+    body {
+    font-size: 2.5vh;
+  }
+}
+@media screen and (max-width: 1150px)
+{
+  body{
+   font-size: 3vh;
+  }
 }
 
 .unselectable {
