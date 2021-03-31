@@ -93,10 +93,10 @@ body {
   width: 5%;
 }
 .button-img:first-of-type {
-  left: 0;
+  left: 2px;
 }
 .button-img:last-of-type {
-  right: 0;
+  right: 2px;
 }
 #changing-image-container {
   position: relative;
