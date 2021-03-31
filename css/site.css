@@ -144,12 +144,6 @@ img {
 .chapter:nth-child(odd) > .chapter-img {
   order: 1;
 }
-footer {
-  text-align: center;
-  font-size: 15.5px;
-  font-style: italic;
-  margin-bottom: 15px;
-}
 
 /*figure*/
 figure {
@@ -169,4 +163,42 @@ figure > img {
 
 #img-p {
   min-height: 200px;
+}
+
+footer {
+  text-align: center;
+  font-size: 15.5px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+#footer-content {
+  display: block;
+  margin: auto;
+  padding: 0;
+  margin-bottom: 100px;
+  list-style-type: none;
+  width: 700px;
+  margin-top:10px;
+}
+.social-icon {
+  float: left;
+  display: inline;
+  width: 32px;
+  padding: 4px;
+  max-width: none;
+  opacity: 0.7;
+  margin-right: 5px;
+}
+.social-icon:hover {
+  background-color: #f5f5f523;
+  border-radius: 6px;
+}
+.social-text {
+  float: left;
+  line-height: 40px;
+  vertical-align: top;
+  margin-right: 50px;
+}
+.footer-element {
+  overflow: hidden;
 }
