@@ -162,7 +162,9 @@ div#header-menu {
   left: 0;
   cursor: pointer;
 }
-
+#header-nav-right {
+  padding-top: 15px;
+}
 @media screen and (max-width: 580px) {
   #header-nav-left > ul > .header-nav-item {
     display: none;
